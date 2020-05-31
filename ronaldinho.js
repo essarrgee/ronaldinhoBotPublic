@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 function CheckRonaldinho(string) {
-	var re = new RegExp('(r+)(o+)(n*)ald(i*)(n*)(h*)(i*)(o+)');
+	var re = new RegExp("(r+)(o*)(n*)ald(i*)(n*)(h*)(i*)(o+)", "i");
 	var isRonaldinho = re.test(string);
 	return isRonaldinho;
 }
