@@ -8,7 +8,7 @@ function CheckRonaldinho(string) {
 }
 
 client.on('ready', ()=>{
-	client.user.setActivity('with ur mom lol');
+	client.user.setActivity('MUNDIAL RONALDINHO SOCCER 64');
 })
 
 client.on('message', (message) => {
